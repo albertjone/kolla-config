@@ -687,4 +687,11 @@ ironic_dnsmasq_dhcp_range: "10.10.1.220,10.10.1.230"
 # telemetry data.
 #telegraf_enable_docker_input: "no"
 
+##########
+#ovs-dpdk
+##########
+ovs_datapath: "netdev"
+tunnel_interface: "dpdk_bridge"
+neutron_bridge_name: "dpdk_bridge"
+
 prechecks_enable_host_os_checks: "no"
